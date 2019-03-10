@@ -1,0 +1,117 @@
+/* Application-wide Styles */
+h1 {
+    color: #369;
+    font-family: 'Gentium Basic', Arial, serif;
+    font-size: 250%;
+  }
+  h2, h3 {
+    color: #444;
+    font-family: 'Gentium Basic', Arial, serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+    font-family: 'Gentium Basic', Arial, serif;
+  }
+  body, input[text], button {
+    color: #888;
+    /*font-family: Cambria, Georgia;*/
+    font-family: 'Gentium Basic', Arial, serif;
+  }
+  /* everywhere else */
+  * {
+    font-family: 'Gentium Basic', Arial, serif;
+  }
+
+#musiccards .card h6 {
+    margin-top: 0.5em;
+}
+
+#musiccards .card .card-img-top {
+    object-fit: cover;
+}
+
+#titlecard .row .card{
+    padding: 0;
+}
+
+#titlecard .row {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing:content-box;
+    margin: 0.7em 0 1.3em 0;
+    padding: 0;
+}
+#titlecard .card-img-top {
+    object-fit: cover;
+}
+
+#titlecard .musiclink {
+    margin: 0 0.7em;
+  }
+  
+#titlecard .musiclink:first-child {
+    margin: 0 0.7em 0 0;
+  }
+  
+#titlecard .musiclink:last-child {
+    margin: 0 0 0 0.7em;
+}
+
+#titlecard .card-img-top {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+#titlecard {
+    margin: 0.7em 0 1.3em 0;
+
+}
+
+#titlecard a, #titlecard p {
+    font-size: 1rem;
+}
+
+/**
+.badge-youtube {
+    background-color: #fb5050 !important;
+    color: white !important;
+    float: right;
+}
+
+.badge-spotify {
+    background-color: #76b852 !important;
+    color: white !important;
+    float: right;
+}**/
+
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+}
